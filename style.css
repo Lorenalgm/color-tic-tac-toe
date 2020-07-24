@@ -43,6 +43,10 @@ header{
     background-color: var(--amarelo);
 }
 
+.teste{
+    background-color: var(--amarelo);
+}
+
 .player2{
     color: var(--vermelho);
 }
