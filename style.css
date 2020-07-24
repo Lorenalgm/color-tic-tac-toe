@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: #07031A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+:root{
+    --amarelo:#E8D000;
+    --vermelho: #CA0000;
+    --cinza: #C4C4C4;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.player{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000;
+    width: 9em;
+    height: 4em;
+    font-size: 1.5em;
+}
+
+.circle{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+}
+
+.player1{
+    color: var(--amarelo);
+}
+
+.player1 .circle{
+    background-color: var(--amarelo);
+}
+
+.player2{
+    color: var(--vermelho);
+}
+
+.player2 .circle{
+    background-color: var(--vermelho);
+}
+
+.game{
+    margin: 0 auto;
+    width: 32%;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    margin: 0.4em auto;
+    width: 8em;
+    height: 8em;
+    background-color: var(--cinza);
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
